@@ -1,0 +1,43 @@
+body{
+    font-family: 'fantasy';
+    text-align: center; 
+
+}
+p{
+    color: rgb(132, 0, 255);
+}
+
+.about{
+    background: rgb(137, 145, 141);
+    padding: 8px;
+}
+.c{
+    color:rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.c1{
+    color:rgb(190, 48, 43);
+}
+.c2{
+    color:rgb(0, 79, 250);
+}
+.c3{
+    color:rgb(255, 0, 191);
+}
+.c4{
+    color:rgb(87, 20, 94)
+}
+img{
+    height: 240px;
+    width: 240px;
+}
+.column{
+    float: left;
+    margin-right:18px;
+    margin: 10px;
+    width: 23%;
+}
+.card{
+    box-shadow: 0px 4px 8px 0 #b3b3b3f5;
+    padding: 0 18px 0 16px;
+}
