@@ -10,6 +10,7 @@ if(isset($_POST['signup-submit'])){
     $passw_rep = $_POST['con-pwd'];
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
+
     
     if($passw !== $passw_rep){
         header("Location: ../signup.php?error=diffPasswords");
@@ -45,7 +46,7 @@ if(isset($_POST['signup-submit'])){
                     mysqli_stmt_execute($stmt);
                     mysqli_stmt_store_result($stmt);
 
-                    $sqlImg = "INSERT INTO profiles (uname, fname) VALUES ('$$username', '$fname')";
+                    $sqlImg = "INSERT INTO profs (uname, fname) VALUES ('$username', '$fname')";
                     mysqli_query($conn, $sqlImg);
 
                     header("Location: ../signup.php?signup=success");

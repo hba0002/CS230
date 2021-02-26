@@ -1,12 +1,13 @@
+<?php
+require 'includes/header.php';
+?>
 <body>
     <link rel="stylesheet" href="css/about.css">
 
     <div class="about">
         <h1>About Us</h1>
-        <p>
-        A diverse group of real vampires and witches here to critique your favorite supernatural movies and TV shows. 
-        We won't hold back in pointing out logical and technical flaws of some of the most popular depictions of the supernatural. 
-        </p>
+        <p>A diverse group of real vampires and witches here to critique your favorite supernatural movies and TV shows. 
+        We won't hold back in pointing out logical and technical flaws of some of the most popular depictions of the supernatural. </p>
     </div>
     <div class="row">
         <div class="column">

@@ -36,7 +36,8 @@ if(isset($_POST['login-submit'])){
                 $_SESSION['fname'] = $data['fname'];
                 $_SESSION['uname'] = $data['uname'];
 
-                echo "<h1>Success!</h1><p>$uname</p>";
+                //echo "<h1>Success!</h1><p>$uname</p>";
+                header("Location: ../profile.php?success=login");
             }else{
                 header("Location: ../login.php?error=WrongPass");
                 exit();
